@@ -1,0 +1,141 @@
+.nav-left {
+    display: flex;
+    margin-left: 10px;
+}
+
+.nav-container {
+    background-color: #065FF3;
+    position: sticky;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav-container img {
+    cursor: pointer;
+    height: 45px;
+    padding: 10px;
+}
+
+.brand-name {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.brand-name span {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.nav-right {
+    color: aliceblue;
+    text-decoration: none;   
+}
+
+.nav-links {
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.link-class {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.link-class:hover {
+    background-color: #0658db;
+    border-radius: 20px;
+}
+
+.nav-links img {
+    display: none;
+}
+
+.ham-container {
+    display: none;
+}
+
+.menu-modal {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 100vh;
+    width: 100%;
+    margin: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.menu-modal span {
+    color: aliceblue;
+}
+
+.ham-links {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    padding: 24px;
+    font-weight: 700;
+}
+
+.ham-link {
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 40px;
+    padding: 15px;
+    margin: 15px;
+    background-color: #84a7e02f;
+    border-radius: 7px;
+}
+
+.close-button {
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 600;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 480px) {
+    
+    .nav-links {
+        display: none;
+    }
+
+    .ham-container {
+        display: block;
+    }
+
+    .nav-container {
+        background-color: #065FF3;
+        position: sticky;
+        padding: 10px;
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    .nav-container img {
+        cursor: pointer;
+        height: 40px;
+        padding: 10px;
+    }    
+
+    .brand-name {
+        display: none;
+    }
+
+  }
