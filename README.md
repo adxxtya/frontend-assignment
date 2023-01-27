@@ -6,15 +6,17 @@
 
 
 
-## Check out preview folder in the code to get the idea of the project 
+## Screenshots and Video 
 
-It includes screenshots and video of the Pages. 
+Check out preview folder in the code to get the idea of the project, it includes screenshots and video of the Pages. 
 
 
 
 ## Hosted this website
 
 #### This website is hosted [here.](http://logoipsum12.tk)
+
+
 
 ## Get Started with project on your own PC
 
