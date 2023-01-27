@@ -1,4 +1,4 @@
-### Features of this project
+## Features of this project
 
 - Mobile Responsive Design
 - Fast Routing
@@ -6,17 +6,17 @@
 
 
 
-### Check out preview folder in the code to get the idea of the project 
+## Check out preview folder in the code to get the idea of the project 
 
 It includes screenshots and video of the Pages. 
 
 
 
-### Hosted this website
+## Hosted this website
 
 #### This website is hosted [here.](http://logoipsum12.tk)
 
-### Get Started with project on your own PC
+## Get Started with project on your own PC
 
 In the project directory, you can run:
 
